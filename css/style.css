@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;1,300&family=Libre+Baskerville&family=PT+Sans:ital,wght@0,400;0,700;1,700&family=PT+Serif:wght@400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:ital,wght@0,900;1,700;1,900&display=swap');
+
+* {
+   font-family: 'kanit', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+  }
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #eee;
+    min-height: 100vh;
+    gap: 15px;
+    padding-bottom: 80px;
+
+}
+
+.container .content{
+flex: 1 1 400px;
+text-align: center;
+}
+
+
+.container .image img{
+width: 100%;    
+}
+    
+.container .content .title{
+    font-size: 35px;
+}
+
+.container .content .count-down{
+display: flex;
+gap: 15px;
+padding: 10px 0;
+}
+
+.container .content .count-down .box{
+padding: 5px;
+background: #fff;
+border: 1px solid #666;
+text-align: center;
+width: 60px;
+}
+
+
+.container .content .count-down .box h3
+.container .content .count-down .box span{
+font-size: 15px;
+color: #666;
+
+}
+
+
+@media (max-width:500px) {
+    .container{
+        padding: 20px;
+    }
+
+
+    .container .content{
+        text-align: center;
+
+    }
+}
